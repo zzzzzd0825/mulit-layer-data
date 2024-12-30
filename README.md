@@ -1,4 +1,3 @@
 # mulit-layer-data
-The bash which integrate multi-layer biological priors to improve genomic prediction accuracy in beef cattle
-A simple instance
+A simple instance which study from Ruidong xiang's research
 If you have any question, please contact the author. 
