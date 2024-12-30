@@ -27,8 +27,8 @@ for file in *snplist; do
     size=$(wc -l < "$file")
     echo -e "${file%.snplist}\t$size"
 done > demo.size.grm
-
-
+### Calculate the variants score
+Rscript score.R
 
 ### Selection of variants based on thresholds
 for i in $(seq 5 10 30); do
